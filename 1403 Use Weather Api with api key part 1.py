@@ -2,7 +2,7 @@ import requests
 # import json
 # alternate of import json = res.json()
 
-# API_KEY = '3bb962a90629139b6d9c5f8d13cfe6b1'
+API_KEY = '3bb962a90629139b6d9c5f8d13cfe6b1'
 city_name = input('Enetr any city name: ')
 url = f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}'
 units = '&units=metric'
